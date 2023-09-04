@@ -1,0 +1,24 @@
+{
+  "title": "H5P Editor Phrase Randomizer Textual Editor",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "H5PEditor.PhraseRandomizerTextualEditor",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 24
+  },
+  "author": "Oliver Tacke",
+  "license": "MIT",
+  "preloadedJs": [
+    {
+      "path": "dist/h5peditor-phrase-randomizer-textual-editor.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/h5peditor-phrase-randomizer-textual-editor.css"
+    }
+  ]
+}
