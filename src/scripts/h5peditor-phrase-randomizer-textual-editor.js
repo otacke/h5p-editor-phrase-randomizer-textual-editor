@@ -46,9 +46,15 @@ export default class PhraseRandomizerTextualEditor {
     const textLines = this.inputField.value.split('\n');
     textLines.push(''); // Final separator to add last item to list
 
-    // Reset list
-    this.list.removeAllItems();
     this.isRecreatingList = true;
+
+    // Reset list, not using removeAllItems() as this does not trigger events
+    const listLength = this.list.getValue().length;
+    if (listLength > 0) {
+      for (let i = listLength - 1; i >= 0; i--) {
+        this.list.removeItem(i);
+      }
+    }
 
     let newItem = { options: [] };
 
