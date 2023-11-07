@@ -49,7 +49,7 @@ export default class PhraseRandomizerTextualEditor {
     this.isRecreatingList = true;
 
     // Reset list, not using removeAllItems() as this does not trigger events
-    const listLength = this.list.getValue().length;
+    const listLength = this.list.getValue()?.length ?? 0;
     if (listLength > 0) {
       for (let i = listLength - 1; i >= 0; i--) {
         this.list.removeItem(i);
