@@ -1,8 +1,8 @@
 {
   "libraryStrings": {
-    "l10n.helpTextTitleMain": "Important instructions",
-    "l10n.helpTextTitleExample": "Example",
-    "l10n.helpTextIntroduction": "Create blocks of segments, where each block is separated by an empty line.\nIn each block each line represents an option for the segment.\nThe title can optionally be set by starting the line with _title=_ followed by the title.\nThe optional segment background color can be set by starting the line with _color=_ followed by a color code, e.g. rgb(255, 0, 0) or #ff0000.",
-    "l10n.helpTextExampleText": "strawberry\nraspberry\ncloudberry\ntitle=berry name\ncolor=#c69e3b\n\npie\nyoghurt\njam"
+    "l10n.helpTextTitleMain": "Instrucciones importantes",
+    "l10n.helpTextTitleExample": "Ejemplo",
+    "l10n.helpTextIntroduction": "Crear bloques de segmentos, donde cada bloque está separado por una línea vacía.\nEn cada bloque cada línea representa una opción para el segmento.\nOpcionalmente el título puede ser configurado al iniciar la línea con _title=_ seguido por el título.\nEl color opcional del fondo puede ser configurado al iniciar la línea con _color=_ seguido por un código de color, por ejemplo. rgb(255, 0, 0) or #ff0000.",
+    "l10n.helpTextExampleText": "fresa\nframbuesa\nmorada\ntitle=nombre de mora\ncolor=#c69e3b\n\npie\nyoghurt\njalea"
   }
 }
