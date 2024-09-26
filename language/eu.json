@@ -1,8 +1,8 @@
 {
   "libraryStrings": {
-    "l10n.helpTextTitleMain": "Important instructions",
-    "l10n.helpTextTitleExample": "Example",
-    "l10n.helpTextIntroduction": "Create blocks of segments, where each block is separated by an empty line.\nIn each block each line represents an option for the segment.\nThe title can optionally be set by starting the line with _title=_ followed by the title.\nThe optional segment background color can be set by starting the line with _color=_ followed by a color code, e.g. rgb(255, 0, 0) or #ff0000.",
+    "l10n.helpTextTitleMain": "Argibide garrantzitsuak",
+    "l10n.helpTextTitleExample": "Adibidea",
+    "l10n.helpTextIntroduction": "Sortu segmentuen blokeak, non bloke bakoitza marra huts batez bereizita dagoen.\nBloke bakoitzean lerro bakoitzak segmenturako aukera bat adierazten du.\nIzenburua aukeran ezar daiteke lerroa _title=_ eta ondoren izenburuarekin hasita.\nAukerako segmentuaren atzeko planoaren kolorea ezar daiteke lerroa _color=_-rekin hasita eta ondoren kolore-kode bat, adibidez. rgb(255, 0, 0) edo #ff0000.",
     "l10n.helpTextExampleText": "strawberry\nraspberry\ncloudberry\ntitle=berry name\ncolor=#c69e3b\n\npie\nyoghurt\njam"
   }
 }
