@@ -1,6 +1,6 @@
 {
   "name": "h5peditor-phrase-randomizer-textual-editor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "H5P Editor Phrase Randomizer Textual Editor",
   "scripts": {
     "lint": "stylelint './src/**/*.scss' && eslint './src/**/*.js'",
