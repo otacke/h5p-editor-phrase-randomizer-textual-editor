@@ -35,7 +35,7 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "color": "^5.0.0",
+    "color": "^5.0.2",
     "he": "^1.2.0",
     "showdown": "^2.1.0"
   },
